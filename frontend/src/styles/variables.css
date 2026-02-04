@@ -1,0 +1,66 @@
+:root {
+  /* Primary Brand Colors - Soft Gold / Cream */
+  --bg-primary: #F7E2B5;        /* soft champagne */
+  --bg-secondary: #FBEFD6;      /* light cream */
+  --bg-tertiary: #FFF8EC;       /* near-white warm */
+  --bg-elevated: #FFFFFF;       /* pure white for cards */
+  --bg-hover: #FFF4DB;          /* subtle warm hover */
+  --bg-dark: #2A2A2A;           /* softened dark for rare use */
+  --bg-dark-secondary: #3A3A3A; /* secondary dark */
+
+  /* Text Colors (High readability, soft contrast) */
+  --text-primary: #262626;      /* main body text */
+  --text-secondary: #272727;    /* muted text */
+  --text-tertiary: #888888;     /* helper / meta text */
+  --text-light: #FFFFFF;        /* on dark / accent */
+  --text-dark: #111111;         /* strong headings */
+
+  /* Accent Colors - Pastel Luxury Palette */
+  --accent-primary: #E6A77D;          /* muted rose-gold */
+  --accent-primary-hover: #F0B891;    /* lighter on hover */
+  --accent-secondary: #86C8C2;        /* soft teal */
+  --accent-secondary-hover: #9FD4CF;  /* lighter teal */
+  --accent-tertiary: #C7DDCF;         /* pale sage */
+  --accent-success: #7BBF8A;          /* soft success green */
+  --accent-success-hover: #92CBA0;    /* lighter success */
+  --accent-purple: #C2B4E2;           /* muted lavender */
+  --accent-pink: #F2B7C5;             /* soft blush pink */
+
+  /* Gradient Combinations (kept as flat colors to avoid gradients) */
+  --gradient-primary: #F7E2B5;        /* use as solid background */
+  --gradient-accent: #E6A77D;         /* solid accent section */
+  --gradient-rainbow: #7e5a43;        /* soft neutral background */
+  --gradient-dark: #2A2A2A;           /* rare hero / footer */
+  --gradient-card: #FFFFFF;           /* clean card background */
+
+  /* Borders & Dividers */
+  --border-color: rgba(17, 17, 17, 0.06);   /* subtle divider */
+  --border-hover: rgba(17, 17, 17, 0.16);   /* stronger on hover */
+  --border-dark: rgba(255, 255, 255, 0.18); /* on dark sections */
+
+  /* Shadows - Soft, Premium */
+  --shadow-sm: 0 4px 10px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 14px 32px rgba(0, 0, 0, 0.08);
+  --shadow-xl: 0 20px 48px rgba(0, 0, 0, 0.10);
+  --shadow-glow-yellow: 0 0 24px rgba(247, 226, 181, 0.55);
+  --shadow-glow-pink: 0 0 24px rgba(242, 183, 197, 0.45);
+  --shadow-glow-cyan: 0 0 24px rgba(134, 200, 194, 0.45);
+  --shadow-colored: 0 14px 32px rgba(230, 167, 125, 0.35);
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  --spacing-3xl: 6rem;
+
+  /* Border Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --radius-full: 9999px;
+}

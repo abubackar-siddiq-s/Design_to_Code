@@ -1,0 +1,43 @@
+/* ======================================================
+   LOADING SPINNER STYLES - Vibrant Design
+   ====================================================== */
+
+.spinner {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  margin: var(--spacing-xl) 0;
+}
+
+.spinner-circle {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto var(--spacing-md);
+  border: 5px solid var(--bg-secondary);
+  border-top: 5px solid var(--accent-primary);
+  border-right: 5px solid var(--accent-secondary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  box-shadow: var(--shadow-glow-pink);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner p {
+  color: var(--text-primary);
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

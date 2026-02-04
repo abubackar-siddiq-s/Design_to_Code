@@ -1,0 +1,87 @@
+/* ======================================================
+   CODE OUTPUT STYLES - Vibrant Design
+   ====================================================== */
+
+.result-section {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+  border-top: 3px solid var(--accent-secondary);
+  animation: slideInUp 0.5s ease-out;
+}
+
+.result-section h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 900;
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: var(--spacing-lg);
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.code-container {
+  margin: var(--spacing-lg) 0;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 4px solid var(--bg-elevated);
+  box-shadow: var(--shadow-xl);
+  background: var(--bg-dark);
+  position: relative;
+}
+
+.code-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--gradient-accent);
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+  z-index: 1;
+}
+
+.code-output {
+  background: var(--bg-dark);
+  color: #c9d1d9;
+  padding: var(--spacing-xl);
+  overflow-x: auto;
+  max-height: 700px;
+  overflow-y: auto;
+  font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Code", "Courier New",
+    monospace;
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  margin: 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-primary) var(--bg-dark-secondary);
+}
+
+.code-output::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.code-output::-webkit-scrollbar-track {
+  background: var(--bg-dark-secondary);
+}
+
+.code-output::-webkit-scrollbar-thumb {
+  background: var(--accent-primary);
+  border-radius: var(--radius-full);
+  border: 2px solid var(--bg-dark-secondary);
+}
+
+.code-output::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-secondary);
+}
+
+.code-output code {
+  color: inherit;
+  font-family: inherit;
+  white-space: pre;
+}
