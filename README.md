@@ -2,7 +2,7 @@
 
 ## AI‑Powered Design → Frontend Code Generator
 
-<D2C /> (Design to Code) is a full‑stack MERN application that converts UI designs, screenshots, or mockups into clean, production‑ready frontend code using Generative AI.
+D2C (Design to Code) is a full‑stack MERN application that converts UI designs, screenshots, or mockups into clean, production‑ready frontend code using Generative AI.
 
 Built as an AI engineering product, this platform helps developers and designers automatically transform visuals into structured HTML/CSS/React code — drastically reducing manual UI implementation time.
 
@@ -26,10 +26,8 @@ Built as an AI engineering product, this platform helps developers and designers
 Frontend: React.js  
 Backend: Node.js + Express.js  
 Database: MongoDB  
-AI Engine: Google Gemini API  
-File Uploads: Multer  
+AI Engine: Google Gemini API   
 Image Processing: Custom utilities  
-Authentication: JWT (optional)  
 
 ---
 
@@ -216,8 +214,8 @@ POST /api/font-detect
 
 ## 👨‍💻 Developed By
 
-Abubackar Siddiq  
-Computer Engineering Student  
+Abubackar Siddiq S
+Computer Science Engineering Student  
 Full Stack MERN Developer  
 AI + Web Engineering Enthusiast
 
@@ -228,6 +226,6 @@ MIT License
 
 ---
 
-## ❤️ Tagline
+## Made with ❤️ by Abubackar Siddiq
 
 Upload Design → Get Code → Ship Faster 🚀
