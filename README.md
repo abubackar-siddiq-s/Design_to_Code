@@ -1,4 +1,4 @@
-# <D2C /> — Design to Code
+# D2C — Design to Code
 
 ## AI‑Powered Design → Frontend Code Generator
 
